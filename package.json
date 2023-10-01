@@ -1,0 +1,11 @@
+{
+  "main": "app/*.js",
+  "name": "azure-functions-core-tools-cert-bug",
+  "scripts": {
+    "start": "func start --useHttps --cert certs/localhost.pfx --javascript"
+  },
+  "dependencies": {
+    "@azure/functions": "^4.0.1",
+    "azure-functions-core-tools": "^4.0.5390"
+  }
+}
